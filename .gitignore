@@ -1,0 +1,43 @@
+.venv/
+__pycache__/
+data/
+Dataset/
+revision_dataset/
+.pytest_cache/
+.streamlit/secrets.toml
+.env
+*.keras
+*.h5
+
+# Otros entornos de desarrollo locales
+.venv*/
+venv/
+env/
+
+# Archivos generados por Python y pruebas
+*.py[cod]
+*.log
+.ipynb_checkpoints/
+
+# Credenciales locales (NUNCA publicar)
+.streamlit/secrets*.toml
+!.streamlit/secrets.example.toml
+.env.*
+!.env.example
+
+# Bases de datos y modelos locales (los recursos productivos estan en Atlas)
+*.sqlite3
+*.db
+*.keras
+*.hdf5
+*.h5
+
+# Archivos comprimidos grandes / datasets locales
+*.zip
+!ejemplos/dataset_sintetico_demo.zip
+*.rar
+*.7z
+
+# Respaldos locales
+*respaldo*.py
+*.bak

@@ -1,0 +1,4 @@
+pymongo>=4.6,<5
+dnspython>=2.6,<3
+tomli>=2,<3
+Pillow>=10.4,<13
